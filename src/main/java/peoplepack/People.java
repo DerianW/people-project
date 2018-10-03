@@ -29,7 +29,8 @@ public class People
         {
             if (i.getID() == ID)
             {
-                i = null ;
+                personList.remove(i) ;
+                break ;
             }
         }
     }
